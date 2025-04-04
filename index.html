@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Kipchumba - Portfolio</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1 >Ian Kipchumba</h1>
+        <p>Mechanical Engineer | Developer | Innovator</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="container">
+        <h2 class="header">About Me</h2>
+        <img src="images/ian.jpg" alt="Kipchumba Ian" class="profile-img">
+        <p >Ian Kipchumba had always been fascinated by how things worked. Growing up, 
+            he would take apart machines just to understand their inner workings. 
+            This curiosity led him to study mechanical engineering, a field where precision, 
+            design, and problem-solving ruled.
+
+            After years of hard work, he landed a role at Interbuild Engineering, 
+            where he tackled complex engineering challenges daily. But deep inside,
+             another passion was brewing—coding. He saw how technology was transforming industries, 
+             and he wanted to be part of that revolution.
+            
+            Determined to bridge the gap between engineering and software, Ian enrolled at PLP Academy,
+             immersing himself in the world of programming. Every line of code felt like solving an engineering puzzle
+              and soon, he was building applications that blended both his mechanical expertise and newfound coding skills.
+            
+            His journey had just begun, but one thing was clear—Ian wasn’t just following a path;
+             he was creating his own. A future where engineering and software met seamlessly,
+              and he was at the forefront of it.</p>
+    </section>
+    
+    <section id="education" class="container">
+        <h2 class="header">Educational Background</h2>
+        <p>Studied Mechanical Engineering.</p>
+        <p>Currently at PLP Academy.</p>
+        <a href="cv.pdf" download class="btn">Download My CV</a>
+    </section>
+    
+    <section id="skills" class="container" style="color: white;">
+        <h2 class="header">Programming Languages</h2>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    
+    <section id="projects" class="container">
+        <h2 class="header">Projects</h2>
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+            <h3 class="header">Project 1</h3>
+            <p>Brief description of Project 1.</p>
+        </div>
+        <div class="project">
+            <img src="images/website.jpg" alt="web development">
+            <h3 class="header">Project 2</h3>
+            <p>This project is a personal portfolio website designed to showcase skills, 
+                projects, and professional experience.
+                 It provides an interactive and visually appealing platform to highlight work,
+                  share contact details, and engage with potential clients or employers.
+
+                </p>
+        </div>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2 class="header">Contact Me</h2>
+        <form action="submit_contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+</body>
+</html>
