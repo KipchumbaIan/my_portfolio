@@ -7,7 +7,9 @@ body {
 }
 
 header {
-    background: #1e0245;
+    min-height: auto;
+    width: 100%;
+    background-color:rgb(50, 1, 90) ;
     color: white;
     text-align: center;
     padding: 2px 0;
@@ -26,7 +28,7 @@ nav {
     background: lab(71.27% 26.96 74.61 / 0.975);
     
     padding: 0.5px 5;
-    position: sticky;
+    position:sticky;
     top: 0;
     z-index: 1000;
 }
@@ -70,7 +72,7 @@ nav ul li a:hover {
 }
 
 .profile-img {
-    display:block;
+    display: inline-block;
     max-width: 150px;
     border-radius: 55%;
     margin: 20px auto;
