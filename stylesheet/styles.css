@@ -89,7 +89,7 @@ nav ul li a:hover {
 
 .about-image img {
     width: 220px; /* Adjust size as needed */
-    height: 220px;
+    height: 300px;
     object-fit: cover; /* Keeps face from stretching */
     border-radius: 20px; /* Matches your section's rounded corners */
     border: 3px solid #063030;
