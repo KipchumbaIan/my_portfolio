@@ -3,119 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ian Kipchumba - Portfolio</title>
+    <title>Ian Kipchumba | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS (CORRECT PATH) -->
     <link rel="stylesheet" href="stylesheet/styles.css">
-
 </head>
+
 <body>
-    <header>
-        <h1 >Ian Kipchumba</h1>
-        <p>Mechanical Engineer | Developer | Innovator</p>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <section id="about" class="container">
-        <h2 class="header">About Me</h2>
-        <img src="images/ian.jpg" alt="Kipchumba Ian" class="profile-img">
-        <p >Ian Kipchumba had always been fascinated by how things worked. Growing up, 
-            he would take apart machines just to understand their inner workings. 
-            This curiosity led him to study mechanical engineering, a field where precision, 
-            design, and problem-solving ruled.
 
-            After years of hard work, he landed a role at Interbuild Engineering, 
-            where he tackled complex engineering challenges daily. But deep inside,
-             another passion was brewing—coding. He saw how technology was transforming industries, 
-             and he wanted to be part of that revolution.
-            
-            Determined to bridge the gap between engineering and software, Ian enrolled at PLP Academy,
-             immersing himself in the world of programming. Every line of code felt like solving an engineering puzzle
-              and soon, he was building applications that blended both his mechanical expertise and newfound coding skills.
-            
-            His journey had just begun, but one thing was clear—Ian wasn’t just following a path;
-             he was creating his own. A future where engineering and software met seamlessly,
-              and he was at the forefront of it.</p>
-    </section>
-    
-    <section id="education" class="container">
-        <h2 class="header">Educational Background</h2>
-        <p>Studied Mechanical Engineering.</p>
-        <p>Currently at PLP Academy.</p>
-        <a href="https://drive.google.com/uc?export=download&id=1v_qn2vRqkh1lDPy_nxhuS8BHhFvW3aF8" target="_blank" class="btn">Download My CV</a>
+<header>
+    <h1>Ian Kipchumba</h1>
+    <p>Mechanical Engineer • Web Developer</p>
+</header>
 
-        <!--<a href="cv.pdf" download class="btn">Download My CV</a>-->
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-container">
+        <!--  image here -->
+        <div class="about-image">
+            <img src="images/ian.jpg" alt="Ian Kipchumba" loading="lazy">
+        </div>
+        
+        <div class="about-text">
+            <p>
+                I am a Mechanical Engineer with a growing interest in software development.
+                My engineering background has shaped my analytical thinking and problem-solving skills,
+                while coding allows me to build efficient and scalable digital solutions.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p><strong>BSc Mechanical Engineering - Machakos University, Kenya.</strong></p>
+        <p>Software Development – PLP Academy</p>
+
+        <a href="https://drive.google.com/uc?export=download&id=1v_qn2vRqkh1lDPy_nxhuS8BHhFvW3aF8"
+           target="_blank" class="btn">Download CV</a>
     </section>
-    
-    <section id="skills" class="container" style="color: white;">
-        <h2 class="header">Programming Languages</h2>
-        <ul>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills">
             <li>Python</li>
             <li>JavaScript</li>
             <li>HTML & CSS</li>
             <li>SQL</li>
+            <li>Git & GitHub</li>
         </ul>
     </section>
-    
-    <section id="projects" class="container">
-        <h2 class="header">Projects</h2>
-        <div class="project">
-            <img src="images/project1.jpg" alt="Project 1">
-            <h3 class="header">Project 1</h3>
-            <p>Brief description of Project 1.</p>
-        </div>
-        <div class="project">
-            <img src="images/website.jpg" alt="web development">
-            <h3 class="header">Project 2</h3>
-            <p>This project is a personal portfolio website designed to showcase skills, 
-                projects, and professional experience.
-                 It provides an interactive and visually appealing platform to highlight work,
-                  share contact details, and engage with potential clients or employers.
 
-                </p>
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>
+                A modern, responsive personal portfolio built using HTML and CSS
+                to showcase skills and professional background.
+            </p>
         </div>
     </section>
-    
-    <section id="contact" class="container">
-        <h2 class="header">Contact Me</h2>
-        <form action="submit_contact.php" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit" class="btn">Send</button>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Message</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
-</section>
+
 </main>
 
 <footer>
-    <div class="container">
-        
-        <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-        <div class="social-links">
-            <a href="#" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-            <a href="#" target="_blank"><img src="images/github.png" alt="GitHub"></a>
-            <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
-            </div>
-            <p>&copy; 2025 Ian Kipchumba. All rights reserved.</p>
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/ian-kipchumba-249665358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/KipchumbaIan" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://x.com/Ian_Menjo" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
     </div>
+
+    <p>© 2025 Ian Kipchumba. All rights reserved.</p>
 </footer>
 
 </body>
