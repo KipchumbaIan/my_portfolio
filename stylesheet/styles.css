@@ -69,6 +69,7 @@ nav ul li a:hover {
     background: #ffffff;
     border-radius: 14px;
     box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+    overflow: auto;
 }
 
 .section h2 {
@@ -84,18 +85,29 @@ nav ul li a:hover {
 .about-content {
     display: flex;
     align-items: center;
-    gap: 40px; /* Space between image and text */
+    padding: 80px 20px;
+    justify-content: space-between;
+    gap: 100px; /* Space between image and text */
+    
+
+
+
+    
 }
 
 .about-image img {
     width: 220px; /* Adjust size as needed */
-    height: 300px;
+    height: 250px;
     object-fit: cover; /* Keeps face from stretching */
-    border-radius: 20px; /* Matches your section's rounded corners */
+    border-radius: 400px; /* Matches your section's rounded corners */
     border: 3px solid #063030;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
-
+.float-img{
+    float:left;
+    width:150px;
+    margin-right:15px;
+}
 .about-text {
     flex: 1;
 }
